@@ -1,12 +1,11 @@
 import React from 'react';
-import arrowIcon from '../assets/arrow.png';
 import checkmarkIcon from '../assets/checkmark.png';
 
 function Experience() {
     return(
-  <section id="experience">
+  <section id="skills">
     <p className="section__text__p1">Explore My</p>
-    <h1 className="title">Experience</h1>
+    <h1 className="title">Skills</h1>
     <div className="experience-details-container">
       <div className="about-containers">
         <div className="details-container">
@@ -31,7 +30,6 @@ function Experience() {
         </div>
       </div>
     </div>
-    <img src={arrowIcon} alt="Arrow icon" className="icon arrow" onClick={() => window.location.href = '#projects'} />
   </section>
     );
 }

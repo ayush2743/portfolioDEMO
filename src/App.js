@@ -2,10 +2,11 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Profile from './components/Profile';
 import About from './components/About';
-import Experience from './components/Experience';
+import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import './style.css';
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
     <Navbar />
     <Profile />
     <About />
-    <Experience />
+    <Skills />
     <Projects />
     <Contact />
     <Footer />

@@ -10,11 +10,11 @@ function Contact() {
     <div className="contact-info-upper-container">
       <div className="contact-info-container">
         <img src={emailIcon} alt="Email icon" className="icon contact-icon email-icon" />
-        <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+        <p><a href="https://mail.google.com/mail/u/0/#inbox?compose=new">ayush.saxena2743@gmail.com</a></p>
       </div>
       <div className="contact-info-container">
         <img src={linkedinIcon} alt="LinkedIn icon" className="icon contact-icon" />
-        <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        <p><a href="https://www.linkedin.com/in/ayush-saxena-36b5b515a/">LinkedIn</a></p>
       </div>
     </div>
   </section>
